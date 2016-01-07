@@ -25,6 +25,25 @@ categories: bem vindo
 
 Obs: Sempre dar ENTER antes e depois das listas
 
+{% highlight python %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{% highlight python linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+## Dar ênfase (<<strong>> e <<em>>)
+
+Javascript é _cool_!
+
+Javascript é **cool**!
+
+
 Olá, me chamo Pablo e esse é meu primeiro post. Me adicionem no [facebook][fb]
 [link 2](www.google.com)
 
