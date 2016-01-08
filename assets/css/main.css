@@ -1,2 +1,10 @@
+/*
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+*/
 h1 {
-  color: red; }
+  color: blue; }
+
+p {
+  color: deeppink; }
