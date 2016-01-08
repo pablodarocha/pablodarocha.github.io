@@ -21,6 +21,10 @@ github_username:  pablodarocha
 markdown: kramdown
 highlighter: rouge
 
+# # sass minify
+# sass:
+# 	style: compressed
+
 # # html minify
 # compress_html:
 # 	clippings: all 
