@@ -9,10 +9,10 @@ function load_disqus()
 {
     disqus_loaded = true;
     var disqus_shortname = 'pablodarocha';
-    var disqus_title = 'Perguntas e Respostas - Jekyll';
-    var disqus_url = '/perguntas-e-respostas-jekyll/';
+    var disqus_title = '{{page.title}}';
+    var disqus_url = '{{page.url}}';
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//pablodarocha' + disqus_shortname + '.disqus.com/embed.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     var ldr = document.getElementById('disqus_loader');
 };
